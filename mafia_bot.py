@@ -9,7 +9,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import Forbidden, TelegramError
 from telegram.ext import ApplicationBuilder, CallbackQueryHandler, CommandHandler, ContextTypes
 
-BOT_TOKEN = os.environ.get("MAFIA_BOT_TOKEN", "8738383724:AAEFGJduNYZBtmo3AnMF0voLIvDcgYtt1HM")
+BOT_TOKEN = os.environ.get("MAFIA_BOT_TOKEN", "")
 
 MIN_PLAYERS = 4
 MAX_PLAYERS = 10
